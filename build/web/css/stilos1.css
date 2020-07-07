@@ -1,0 +1,91 @@
+#caja0 {
+
+position: fixed;
+top: 250px;
+left: 550px;
+
+}
+
+#caja1 {
+
+position: fixed;
+top: 300px;
+left: 350px;
+
+}
+
+#caja2 {
+
+position: fixed;
+top: 300px;
+left: 683px
+
+}
+#caja3 {
+
+position: fixed;
+top: 350px;
+left: 350px
+
+}
+#caja4 {
+
+position: fixed;
+top: 350px;
+left: 680px
+
+}
+#caja5 {
+
+position: fixed;
+top: 400px;
+left: 350px
+
+}
+
+#caja6 {
+
+position: fixed;
+top: 400px;
+left: 680px
+
+}
+#caja7 {
+
+position: fixed;
+top: 450px;
+left: 350px
+
+}
+#caja8 {
+
+position: fixed;
+top: 450px;
+left: 680px
+
+}
+#caja9 {
+
+position: fixed;
+top: 498px;
+left: 680px;
+}
+
+#margen {
+
+margin: 30px
+}
+#registrar{
+
+position: fixed;
+top: 550px;
+left: 640px
+
+}
+#login{
+
+position: fixed;
+top: 80px;
+left:500px
+
+}
