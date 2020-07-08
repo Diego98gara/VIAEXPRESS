@@ -29,6 +29,7 @@
                          <a href="Vistas/RegistrarUsuario.jsp"class="btn btn-secondary mr-1 sombras4">Registrate</a>
                     <a href="Vistas/Login.jsp" class="btn btn-danger sombras4 " >Iniciar sesion</a>
                     <p> HOLA Prueba de git </p>
+                    <p> HOLA Prueba de git </p>
                 </div>
             </div>
 
