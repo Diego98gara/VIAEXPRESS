@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crud</title>
+</head>
+
+<body>
+  <div class="container app ">
+    <div class="row">
+      <div class="cold-sm-8">
+        <h1 class="text-center mt-5">{{title}}</h1>
+      </div>
+      <div class=" cold-sm-4 mt-4">
+        <div class="ml-5 mt-4">
+          <div class="alert alert-dark" role="alert">
+            <a href="#" class="colse">
+              &times;
+            </a>
+            Bienvenido gracias por actualizar
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="cold-sm-4 ml-5">
+        <img src="../assets/img/Angular_full_color_logo.svg.png" width="300">
+      </div>
+      <div class="cold-sm-8 mt-2">
+        <h2>Crear Dato: </h2>
+        <form class="mt-4">
+          <div class="form-group ">
+            <label for="name" class="control label cold-sm-2">
+              Nombre
+            </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control"  id="nombre" name="nombre" [(ngModel)]="model.nombre" placeholder="Ingrese su nombre">
+            </div>
+          </div>
+          <div class="form-group ">
+            <label for="Correo" class="control label cold-sm-2">
+              Correo
+            </label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control"  id="Correo" name="Correro" [(ngModel)]="model.Correo" placeholder="Ingrese su nombre">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
